@@ -1,0 +1,148 @@
+import { StyleSheet } from 'react-native';
+import { COLOR } from '../../../constant/Colors';
+import { Responsive } from '../../../constant/Responsive';
+import { FontsROBOTO } from '../../../constant/Fonts';
+
+const StyleAuthRegisterUser = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: COLOR.REDONE,
+    },
+    containerHeader: {
+        flexDirection: 'row',
+    },
+    iconCancel: {
+        position: 'absolute',
+        top: Responsive.hp(4),
+        right: Responsive.wp(88),
+    },
+    textTitle: {
+        fontSize: 24,
+        fontFamily: FontsROBOTO.ROBOTO_REGULAR,
+        color: COLOR.WHITE,
+        fontWeight: 'bold',
+        letterSpacing: 0.5,
+        lineHeight: 30,
+        textAlign: 'center',
+        width: Responsive.wp(80),
+        alignSelf: 'center',
+        marginBottom: Responsive.hp(2),
+        marginTop: Responsive.hp(1.5),
+    },
+    backgroundStore: {
+        width: Responsive.wp(100),
+        height: Responsive.hp(35),
+    },
+    containerBody: {
+        backgroundColor: COLOR.REDONE,
+        borderTopLeftRadius: Responsive.wp(8),
+        borderTopRightRadius: Responsive.wp(8),
+        bottom: Responsive.hp(3.3),
+        width: Responsive.wp(100),
+    },
+    input: {
+        width: Responsive.wp(90),
+        height: Responsive.hp(6),
+        borderRadius: 10,
+        marginTop: Responsive.hp(2),
+        alignSelf: 'center',
+        borderBottomWidth: 1,
+        borderColor: COLOR.WHITE,
+    },
+    viewinput: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    iconShowPassword: {
+        position: 'absolute',
+        right: Responsive.wp(6),
+        top: Responsive.hp(3.3),
+    },
+    textOr: {
+        fontSize: 16,
+        fontFamily: FontsROBOTO.ROBOTO_REGULAR,
+        color: COLOR.WHITE,
+        fontWeight: 'bold',
+        letterSpacing: 0.5,
+        lineHeight: 30,
+        textAlign: 'center',
+        marginTop: Responsive.hp(1),
+    },
+    buttonLogin: {
+        width: Responsive.wp(90),
+        height: Responsive.hp(6),
+        borderRadius: 10,
+        alignSelf: 'center',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: Responsive.hp(2),
+    },
+    textButtonLogin: {
+        fontSize: 18,
+        fontFamily: FontsROBOTO.ROBOTO_REGULAR,
+        color: COLOR.WHITE,
+        fontWeight: 'bold',
+        letterSpacing: 0.5,
+        lineHeight: 30,
+        textAlign: 'center',
+    },
+    viewRegisterOther: {
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    viewLogin: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: COLOR.GRAY,
+        width: Responsive.wp(90),
+        height: Responsive.hp(6),
+        borderRadius: 10,
+        alignSelf: 'center',
+        marginBottom: Responsive.hp(2),
+    },
+    textLoginOther: {
+        fontSize: 18,
+        fontFamily: FontsROBOTO.ROBOTO_REGULAR,
+        color: COLOR.BLACK,
+        fontWeight: 'bold',
+        letterSpacing: 0.5,
+        lineHeight: 30,
+        textAlign: 'center',
+        width: Responsive.wp(70),
+    },
+    iconLoginOther: {
+        width: Responsive.wp(12),
+        height: Responsive.hp(3.5),
+        resizeMode: 'contain',
+    },
+    viewRegister: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: Responsive.wp(1),
+        marginBottom: Responsive.hp(2),
+    },
+    texTitletRegister: {
+        fontSize: 16,
+        fontFamily: FontsROBOTO.ROBOTO_REGULAR,
+        color: COLOR.WHITE,
+        fontWeight: 'bold',
+        letterSpacing: 0.5,
+        lineHeight: 30,
+        textAlign: 'center',
+    },
+    textRegister: {
+        fontSize: 16,
+        fontFamily: FontsROBOTO.ROBOTO_REGULAR,
+        color: COLOR.GRAYONE,
+        fontWeight: 'bold',
+        letterSpacing: 0.5,
+        lineHeight: 30,
+        textAlign: 'center',
+    },
+});
+
+export default StyleAuthRegisterUser;
